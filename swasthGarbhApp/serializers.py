@@ -24,11 +24,17 @@ class MedicineSerializer(DynamicFieldsModelSerializer):
         return ser.data
 
 class MedicinePerPatientSerialzier(DynamicFieldsModelSerializer):
+
     class Meta:
         model = Medicine
         fields = [
             'pk',
+            'patient_id',
             'medicine_name',
+            'medicine_freq',
+            'medicine_extra_comments',
+            'medicine_start',
+            'medicine_end',
             'medicine_Image'
         ]
 

@@ -41,11 +41,19 @@ class Preg_patient_detail(generics.RetrieveUpdateDestroyAPIView):
     def patch(self, request, *args, **kwargs):
         return self.partial_update(request, *args, **kwargs)
 
-class Medicine_particular_patient_detail(generics.RetrieveUpdateDestroyAPIView):
+class Medicine_particular_patient_detail(generics.ListCreateAPIView):
     authentication_classes = (TokenAuthentication,)
     permission_classes = (IsAuthenticated,)
-    queryset = Medicine.objects.all()
-    serializer_class = MedicineSerializer
+    serializer_class = MedicinePerPatientSerialzier
+
+    def get(self, request, pk):
+        d = Medicine.objects.filter(patient_id=pk)
+        return JsonResponse(
+            MedicinePerPatientSerialzier(d,many=True).data,
+            safe=False, content_type='application/json')
+
+    def post(self, request, *args, **kwargs):
+        return super().post(request)
 
 class Hospital_detail(generics.ListCreateAPIView):
     authentication_classes = (TokenAuthentication,)

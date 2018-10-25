@@ -60,13 +60,17 @@ class PregnancyData(models.Model):
     time_stamp = CustomDateTimeField(default=datetime.datetime.now)
 
 class Medicine(models.Model):
-    patient_id = models.ForeignKey(Patient, on_delete=models.CASCADE, related_name='patientsMedicine')
+    patient_id = models.ForeignKey(
+        Patient,
+        on_delete=models.CASCADE,
+        null=True
+    )
     medicine_name = models.CharField(max_length=50)
-    medicine_period = models.CharField(max_length=50, default="")
+    medicine_freq = models.CharField(max_length=50, default="")
     medicine_Image = models.TextField(default="")
     medicine_extra_comments = models.TextField(default="")
-    medicine_time_of_day = CustomDateTimeField(default=datetime.datetime.now)
-    medicine_timespan_days = models.IntegerField(default=7)
+    medicine_start = CustomDateTimeField(default=datetime.datetime.now)
+    medicine_end = CustomDateTimeField(default=datetime.datetime.now)
 
 class Hospital(models.Model):
     patient_id = models.ForeignKey(Patient, on_delete=models.CASCADE, related_name='patientsPregHospitals')
