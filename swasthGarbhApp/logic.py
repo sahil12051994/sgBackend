@@ -20,11 +20,11 @@ def generate_message(preg_data,patient_data,patient,preg_patient_details):
         if ( preg_data['abdominal_pain'] == True ):
             message += '  Abdominal Pain'
         if ( preg_data['visual_problems'] == True ):
-            message += '  facing Visual Problems'
+            message += '  Facing Visual Problems'
         if ( preg_data['bleeding_per_vaginum'] == True ):
             message += '  Bleeding Vaginum'
         if ( preg_data['decreased_fetal_movements'] == True ):
-            message += '  with Decreased Fetal Movements'
+            message += 'Decreased Fetal Movements'
         if ( preg_data['swelling_in_hands_or_face'] == True ):
             message += '  Swelling in hands & face'
         message = message + ""
@@ -113,16 +113,6 @@ def get_doctor_patients(request,pk):
     return analysis_obj
 
 def check_for_preeclampsia_in_current(request):
-    #BP > 150/110
-    #BP >140/90 + Urine Albumin > 2
-    #if headache == true
-    #if abdominal_pain == true
-    #if visual_problems == true
-    #if bleeding_per_vaginum == true
-    #if decreased_fetal_movements == true
-    #if swelling_in_hands_or_face == true
-
-    # preg_data = PregnancyData.objects.get(pk = request.data['pk'])
     preg_data = request.data
     patient = Patient.objects.get(pk = request.data['patient_id'])
     patient_data = PatientData.objects.filter(patient = request.data['patient_id']).filter(time_stamp = request.data['time_stamp'])
