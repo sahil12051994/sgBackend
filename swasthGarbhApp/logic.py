@@ -50,8 +50,9 @@ def check_who_following(request, pk):
         'anc6_diabtese',
         'anc6_anemia',
         'anc7_diabtese',
-        'anc8_diabtese')[0]
+        'anc8_diabtese').first()
 
+    print("In Who Check patient id: {}".format(pk))
     if(pd):
         if(pd['anc1_diabtese'] &  pd['anc1_anemia'] & pd['anc1_hiv'] & pd['anc1_ultrasound'] & pd['anc1_tetnus'] & pd['anc1_urine']):
             who_following = who_following + 1;
@@ -71,9 +72,45 @@ def check_who_following(request, pk):
             who_following = who_following + 1;
     return who_following
 
-def get_patient_analysis(request):
-    pd = PregnancyData.objects.filter(patient_id= pk).values()[0]
-    
+def get_doctor_patients(request,pk):
+    doc = Patient.objects.filter(doctor=pk).values_list('id')
+    res_list = [x[0] for x in doc]
+    print(res_list)
+    numberOfPatientFollowingWHO = 0
+    analysis_obj = {}
+    analysis_obj['high_sys'] = 0
+    analysis_obj['high_dys'] = 0
+    analysis_obj['high_weight'] = 0
+    analysis_obj['hyper_tension'] = 0
+    analysis_obj['urine_albumin'] = 0
+
+    for patientId in res_list:
+        particular_pat = PatientData.objects.filter(patient = patientId).order_by('-time_stamp').values(
+        'systolic',
+        'diastolic',
+        'weight',
+        'urine_albumin',
+        'hyper_tension',
+        'patient'
+        ).first()
+        print(particular_pat)
+        if(particular_pat):
+            if (particular_pat['systolic'] > 80):
+                analysis_obj['high_sys'] = analysis_obj['high_sys'] + 1
+            if (particular_pat['diastolic'] > 140):
+                analysis_obj['high_dys'] = analysis_obj['high_dys'] + 1
+            if (particular_pat['weight'] > 80):
+                analysis_obj['high_weight'] = analysis_obj['high_weight'] + 1
+            if (particular_pat['urine_albumin'] > 2):
+                analysis_obj['urine_albumin'] = analysis_obj['urine_albumin'] + 1
+            if (particular_pat['hyper_tension'] == True):
+                analysis_obj['hyper_tension'] = analysis_obj['hyper_tension'] + 1
+        if(check_who_following(request,patientId) > 0):
+            numberOfPatientFollowingWHO = numberOfPatientFollowingWHO + 1;
+
+    analysis_obj['who_following'] = numberOfPatientFollowingWHO
+    print(analysis_obj)
+    return analysis_obj
 
 def check_for_preeclampsia_in_current(request):
     #BP > 150/110

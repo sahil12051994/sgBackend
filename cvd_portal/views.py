@@ -16,7 +16,7 @@ from rest_framework import status
 
 from cvd_portal.inform import check
 from cvd_portal.fcm import send_message
-from swasthGarbhApp.logic import check_who_following
+from swasthGarbhApp.logic import check_who_following, get_doctor_patients
 
 from random import randint
 
@@ -94,6 +94,15 @@ class DoctorDetail(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = (IsAuthenticated,)
     queryset = Doctor.objects.all()
     serializer_class = DoctorSerializer
+
+    def get(self, request, pk):
+        analysis_object = get_doctor_patients(request, pk)
+        d = Doctor.objects.get(id=pk)
+        dataToSend = DoctorSerializer(d).data
+        dataToSend['analysis_object'] = analysis_object
+        return JsonResponse(
+            dataToSend,
+            safe=False, content_type='application/json')
 
 
 class DoctorList(generics.ListAPIView):
