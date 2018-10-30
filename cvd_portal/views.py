@@ -16,6 +16,7 @@ from rest_framework import status
 
 from cvd_portal.inform import check
 from cvd_portal.fcm import send_message
+from swasthGarbhApp.logic import check_who_following
 
 from random import randint
 
@@ -55,6 +56,15 @@ class PatientDetail(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = (IsAuthenticated,)
     queryset = Patient.objects.all()
     serializer_class = PatientSerializer
+
+    def get(self, request, pk):
+        who_following = check_who_following(request, pk)
+        d = Patient.objects.get(id=pk)
+        dataToSend = PatientSerializer(d).data
+        dataToSend['who_following'] = "Following" if (who_following > 0) else "Not Started"
+        return JsonResponse(
+            dataToSend,
+            safe=False, content_type='application/json')
 
     def update(self, request, pk):
         try:
