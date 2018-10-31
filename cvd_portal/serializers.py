@@ -61,6 +61,15 @@ class PatientImageSerializer(DynamicFieldsModelSerializer):
             'patient'
         ]
 
+class PatientImageOnlyDataSerializer(DynamicFieldsModelSerializer):
+
+    class Meta:
+        model = Image
+        fields = [
+            'id',
+            'extra_comments_image',
+            'time_stamp'
+        ]
 
 class PatientImageNameSerializer(DynamicFieldsModelSerializer):
     patient = serializers.PrimaryKeyRelatedField(

@@ -44,6 +44,18 @@ class PatientImageDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Image.objects.all()
     serializer_class = PatientImageSerializer
 
+class PatientAllImagesDetail(generics.RetrieveUpdateDestroyAPIView):
+    authentication_classes = (TokenAuthentication,)
+    permission_classes = (IsAuthenticated,)
+    serializer_class = PatientImageOnlyDataSerializer
+
+    def get(self, request, pk):
+        d = Image.objects.filter(patient=pk).order_by('-time_stamp').values()
+        print(d.values())
+        dataToSend = PatientImageOnlyDataSerializer(d, many=True).data
+        return JsonResponse(
+            dataToSend,
+            safe=False,content_type='application/json')
 
 class PatientImageCreate(generics.CreateAPIView):
     authentication_classes = (TokenAuthentication,)

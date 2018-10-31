@@ -50,16 +50,6 @@ class Patient(models.Model):
     def __str__(self):
         return self.name
 
-
-class Image(models.Model):
-    byte = models.TextField()
-    patient = models.ForeignKey(Patient, related_name='image')
-    time_stamp = CustomDateTimeField(default=datetime.datetime.now)
-
-    def __str__(self):
-        return self.patient.name + ' ' + str(self.time_stamp)
-
-
 class PatientData(models.Model):
     patient = models.ForeignKey(Patient, related_name='data')
     systolic = models.IntegerField()
@@ -80,6 +70,14 @@ class PatientData(models.Model):
     def __str__(self):
         return self.patient.name + ' ' + str(self.time_stamp)
 
+class Image(models.Model):
+    byte = models.TextField()
+    patient = models.ForeignKey(Patient, related_name='image')
+    extra_comments_image = models.TextField(default="")
+    time_stamp = CustomDateTimeField(default=datetime.datetime.now)
+
+    def __str__(self):
+        return self.patient.name + ' ' + str(self.time_stamp)
 
 class OTP(models.Model):
     otp = models.IntegerField()
