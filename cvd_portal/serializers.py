@@ -149,6 +149,7 @@ class PatientSerializer1(DynamicFieldsModelSerializer):
             # 'mobile',
             # 'data',
             'gender',
+            'lmp'
             # 'user',
             # 'device'
         ]
