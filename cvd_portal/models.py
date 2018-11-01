@@ -46,6 +46,13 @@ class Patient(models.Model):
     device = models.OneToOneField(Device, null=True, related_name='patient')
     user = models.OneToOneField(
         User, on_delete=models.CASCADE, null=True)
+    lmp = CustomDateTimeField(default=datetime.datetime.now)
+    history_high_blood_pressure = models.BooleanField(default=False)
+    history_of_preeclampsia = models.BooleanField(default=False)
+    mother_or_sister_had_preeclampsia = models.BooleanField(default=False)
+    history_of_obesity = models.BooleanField(default=False)
+    more_than_one_baby = models.BooleanField(default=False)
+    history_of_diseases = models.BooleanField(default=False)
 
     def __str__(self):
         return self.name
@@ -92,9 +99,7 @@ class OTP(models.Model):
 class Notifications(models.Model):
     text = models.TextField()
     context_of_notification = models.CharField(max_length=50 , default='None')
-    # notification_app = 0 - > Dhandkan
-    # notification_app = 1 - > Swasth Garbh
-    # notification_app = 2 - > Medicine Reminder
+
     notification_app = models.PositiveIntegerField(null=True)
     patient = models.ForeignKey(
         Patient, null=True, blank=True)
@@ -102,6 +107,10 @@ class Notifications(models.Model):
         Doctor, null=True, blank=True)
     time_stamp = CustomDateTimeField(default=datetime.datetime.now)
     priority = models.PositiveIntegerField(null=True)
+    # 1 hospital
+    # 2 warning
+    # 3 medicine
+    # 4 checkup
     def __str__(self):
         if(self.patient is None):
             return self.doctor.name + " : " + self.text

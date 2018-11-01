@@ -112,7 +112,14 @@ class PatientSerializer(DynamicFieldsModelSerializer):
             'images',
             'gender',
             'user',
-            'device'
+            'device',
+            'lmp',
+            'history_high_blood_pressure',
+            'history_of_preeclampsia',
+            'mother_or_sister_had_preeclampsia',
+            'history_of_obesity',
+            'more_than_one_baby',
+            'history_of_diseases'
         ]
 
     def get_patient_data(self, obj):
