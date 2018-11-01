@@ -18,5 +18,8 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^cbtbiitr/', include('cvd_portal.urls')),
+    # prod
+    url(r'^sg/', include('cvd_portal.urls')),
+    # dev
+    # url(r'^cbtbiitr/', include('cvd_portal.urls')),
 ]
