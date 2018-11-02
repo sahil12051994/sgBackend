@@ -34,8 +34,12 @@ class Preg_patient_detail(generics.RetrieveUpdateDestroyAPIView):
 
     def get(self, request, pk):
         d = PregnancyData.objects.get(patient_id=pk)
+        pDetail = Patient.objects.filter(id=pk).values('lmp')[0]
+        dataToSend = PregenancySerializer(d).data
+        if(pDetail):
+            dataToSend["startDate"] = pDetail['lmp']
         return JsonResponse(
-            PregenancySerializer(d).data,
+            dataToSend,
             safe=False, content_type='application/json')
 
     def patch(self, request, *args, **kwargs):
