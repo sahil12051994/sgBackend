@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 import datetime
 from dateutil import tz
+from django.utils import timezone
 
 
 class CustomDateTimeField(models.DateTimeField):
@@ -36,7 +37,7 @@ class Doctor(models.Model):
 
 
 class Patient(models.Model):
-    name = models.CharField(max_length=60, default="Somesh")
+    name = models.CharField(max_length=60, default="Sahil")
     date_of_birth = models.IntegerField(default=0)
     gender = models.IntegerField(default=1)
     email = models.EmailField(blank=True)
