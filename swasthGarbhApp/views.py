@@ -26,6 +26,31 @@ class All_preg_patients(generics.ListAPIView):
     queryset = PregnancyData.objects.all()
     serializer_class = PregenancySerializer
 
+class doctor_preg_data(generics.ListAPIView):
+    authentication_classes = (TokenAuthentication,)
+    permission_classes = (IsAuthenticated,)
+    queryset = PregnancyData.objects.all()
+    serializer_class = PregenancySerializer
+
+    def get(self, request, pk):
+        patiArr = Patient.objects.filter(doctor=pk).values('id','lmp')
+        print("\npat ids: {}\n".format(patiArr))
+
+        d = []
+        for patId in patiArr:
+            patientId = patId["id"]
+            try:
+                pregData = PregnancyData.objects.get(patient_id=patientId)
+                dataToSend = PregenancySerializer(pregData).data
+                d.append(dataToSend)
+                print("\n{}\n".format(d))
+            except PregnancyData.DoesNotExist:
+                pregData = None
+
+        return JsonResponse(
+            d,
+            safe=False, content_type='application/json')
+
 class Preg_patient_detail(generics.RetrieveUpdateDestroyAPIView):
     authentication_classes = (TokenAuthentication,)
     permission_classes = (IsAuthenticated,)

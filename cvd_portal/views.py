@@ -265,6 +265,7 @@ class DocOnboarding(APIView):
             mobile=data['mobile'],
             email=data['email'],
             hospital=data['hospital'],
+            speciality=data['speciality'],
             # fcm=data['fcm'],
             user=u)
         d.save()

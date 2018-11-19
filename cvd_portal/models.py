@@ -28,7 +28,7 @@ class Doctor(models.Model):
     mobile = models.IntegerField(blank=True)
     speciality = models.CharField(max_length=100, blank=True)
     designation = models.CharField(max_length=100, blank=True)
-    device = models.OneToOneField(Device, null=True, related_name='doctor')
+    device = models.OneToOneField(Device, null=True, related_name='doctor', on_delete=models.CASCADE)
     user = models.OneToOneField(
         User, on_delete=models.CASCADE, null=True)
 
@@ -42,9 +42,9 @@ class Patient(models.Model):
     gender = models.IntegerField(default=1)
     email = models.EmailField(blank=True)
     address = models.TextField(null=True)
-    doctor = models.ForeignKey(Doctor, related_name="patients", null=True)
+    doctor = models.ForeignKey(Doctor, related_name="patients", null=True, on_delete=models.CASCADE)
     mobile = models.IntegerField(blank=True)
-    device = models.OneToOneField(Device, null=True, related_name='patient')
+    device = models.OneToOneField(Device, null=True, related_name='patient', on_delete=models.CASCADE)
     user = models.OneToOneField(
         User, on_delete=models.CASCADE, null=True)
     lmp = CustomDateTimeField(default=datetime.datetime.now)
@@ -58,8 +58,13 @@ class Patient(models.Model):
     def __str__(self):
         return self.name
 
+    # def save(self, **kwargs):
+    #     super(Patient, self).save(**kwargs)
+    #     pregData = PregnancyData(patient_id=self)
+    #     pregData.save()
+
 class PatientData(models.Model):
-    patient = models.ForeignKey(Patient, related_name='data')
+    patient = models.ForeignKey(Patient, related_name='data', on_delete=models.CASCADE)
     systolic = models.IntegerField()
     diastolic = models.IntegerField(default=0)
     weight = models.IntegerField()
@@ -80,7 +85,7 @@ class PatientData(models.Model):
 
 class Image(models.Model):
     byte = models.TextField()
-    patient = models.ForeignKey(Patient, related_name='image')
+    patient = models.ForeignKey(Patient, related_name='image', on_delete=models.CASCADE)
     extra_comments_image = models.TextField(default="")
     time_stamp = CustomDateTimeField(default=datetime.datetime.now)
 
@@ -91,7 +96,7 @@ class OTP(models.Model):
     otp = models.IntegerField()
     user_type = models.TextField()
     user_type_id = models.IntegerField()
-    user = models.OneToOneField(User, null=True)
+    user = models.OneToOneField(User, null=True, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.user_type + ' ' + str(self.user_id)
@@ -103,9 +108,9 @@ class Notifications(models.Model):
 
     notification_app = models.PositiveIntegerField(null=True)
     patient = models.ForeignKey(
-        Patient, null=True, blank=True)
+        Patient, null=True, blank=True, on_delete=models.CASCADE)
     doctor = models.ForeignKey(
-        Doctor, null=True, blank=True)
+        Doctor, null=True, blank=True, on_delete=models.CASCADE)
     time_stamp = CustomDateTimeField(default=datetime.datetime.now)
     priority = models.PositiveIntegerField(null=True)
     # 1 hospital
