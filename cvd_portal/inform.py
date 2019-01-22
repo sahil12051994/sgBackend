@@ -42,18 +42,22 @@ def check(request):
         sys = int(request.data['systolic'])
         dia = int(request.data['diastolic'])
         for d in pd:
-            if(abs(d.weight-wt) >= 1):
-                # print('wt')
-                change_observed[0] = True
-            if(abs(abs(d.heart_rate) - hr)/hr >= 0.1):
-                # print('hr')
-                change_observed[1] = True
-            if(abs(abs(d.systolic) - sys)/sys >= 0.1):
-                # print('sys')
-                change_observed[2] = True
-            if(abs(abs(d.diastolic) - dia)/dia >= 0.1):
-                # print('dia')
-                change_observed[3] = True
+            if(wt != 0):
+                if(abs(d.weight-wt) >= 1):
+                    # print('wt')
+                    change_observed[0] = True
+            if(hr!=0):
+                if(abs(abs(d.heart_rate) - hr)/hr >= 0.1):
+                    # print('hr')
+                    change_observed[1] = True
+            if(sys!=0):
+                if(abs(abs(d.systolic) - sys)/sys >= 0.1):
+                    # print('sys')
+                    change_observed[2] = True
+            if(dia!=0):
+                if(abs(abs(d.diastolic) - dia)/dia >= 0.1):
+                    # print('dia')
+                    change_observed[3] = True
         doc_message = gen_message(change_observed, p)
         if(doc_message is None):
             return
