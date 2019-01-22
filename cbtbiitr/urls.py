@@ -21,5 +21,5 @@ urlpatterns = [
     # prod
     url(r'^sg/', include('cvd_portal.urls')),
     # dev
-    url(r'^cbtbiitr/', include('cvd_portal.urls')),
+    #url(r'^cbtbiitr/', include('cvd_portal.urls')),
 ]
