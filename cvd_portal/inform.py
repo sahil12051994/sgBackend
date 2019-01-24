@@ -42,7 +42,7 @@ def check(request):
         sys = int(request.data['systolic'])
         dia = int(request.data['diastolic'])
         for d in pd:
-            if(wt != 0):
+            if(wt!= 0):
                 if(abs(d.weight-wt) >= 1):
                     # print('wt')
                     change_observed[0] = True

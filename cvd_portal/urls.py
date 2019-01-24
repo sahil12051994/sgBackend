@@ -15,6 +15,7 @@ urlpatterns = [
     url(r'api/data$', PatientDataCreate.as_view()),
     url(r'api/image/(?P<pk>[0-9]+)$', PatientImageDetail.as_view()),
     url(r'api/allimages/(?P<pk>[0-9]+)$', PatientAllImagesDetail.as_view()),
+    url(r'api/singleimage/(?P<pk>[0-9]+)$', ParticularImageByte.as_view()),
     url(r'api/image$', PatientImageCreate.as_view()),
     url(r'api/login$', Login.as_view()),
     url(r'api/logout$', Logout.as_view()),

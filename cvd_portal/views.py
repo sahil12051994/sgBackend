@@ -51,8 +51,22 @@ class PatientAllImagesDetail(generics.RetrieveUpdateDestroyAPIView):
 
     def get(self, request, pk):
         d = Image.objects.filter(patient=pk).order_by('-time_stamp').values()
-        print(d.values())
         dataToSend = PatientImageOnlyDataSerializer(d, many=True).data
+        print(dataToSend)
+        return JsonResponse(
+            dataToSend,
+            safe=False,content_type='application/json')
+
+class ParticularImageByte(generics.RetrieveUpdateDestroyAPIView):
+    authentication_classes = (TokenAuthentication,)
+    permission_classes = (IsAuthenticated,)
+    serializer_class = ParticularImageOnlyDataSerializer
+
+    def get(self, request, pk):
+        print("hello")
+        d = Image.objects.get(id=pk)
+        print(d)
+        dataToSend = ParticularImageOnlyDataSerializer(d).data
         return JsonResponse(
             dataToSend,
             safe=False,content_type='application/json')

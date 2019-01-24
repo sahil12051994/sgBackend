@@ -71,6 +71,16 @@ class PatientImageOnlyDataSerializer(DynamicFieldsModelSerializer):
             'time_stamp'
         ]
 
+class ParticularImageOnlyDataSerializer(DynamicFieldsModelSerializer):
+
+    class Meta:
+        model = Image
+        fields = [
+            'id',
+            'byte',
+            'time_stamp'
+        ]
+
 class PatientImageNameSerializer(DynamicFieldsModelSerializer):
     patient = serializers.PrimaryKeyRelatedField(
         queryset=Patient.objects.all())
