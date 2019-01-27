@@ -370,7 +370,6 @@ class NotificationCRUD(APIView):
 
 class gen_otp(APIView):
     def post(self, request, format=None):
-        print("yo")
         try:
             data = request.data
             print(data)

@@ -106,7 +106,8 @@ class Notifications(models.Model):
     text = models.TextField()
     context_of_notification = models.CharField(max_length=50 , default='None')
 
-    notification_app = models.PositiveIntegerField(null=True)
+    type = models.PositiveIntegerField(null=True)
+    # 1-> doctor 2-> patient
     patient = models.ForeignKey(
         Patient, null=True, blank=True, on_delete=models.CASCADE)
     doctor = models.ForeignKey(
