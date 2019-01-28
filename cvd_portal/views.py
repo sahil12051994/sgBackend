@@ -247,12 +247,21 @@ class PatientOnboarding(APIView):
             date_of_birth=data['date_of_birth'],
             gender=data['gender'],
             user=u,
-            doctor=d
+            doctor=d,
+            lmp=data['lmp'],
+            history_high_blood_pressure= data['history_high_blood_pressure'],
+            history_of_preeclampsia= data['history_of_preeclampsia'],
+            mother_or_sister_had_preeclampsia= data['mother_or_sister_had_preeclampsia'],
+            history_of_obesity= data['history_of_obesity'],
+            more_than_one_baby= data['more_than_one_baby'],
+            history_of_diseases= data['history_of_diseases']
             )
         p.save()
         response['ID'] = p.id
         t = Token(user=u)
         t.save()
+        pregData = PregnancyData(patient_id=p.id)
+        pregData.save()
         response['Token'] = t.key
 
         return JsonResponse(

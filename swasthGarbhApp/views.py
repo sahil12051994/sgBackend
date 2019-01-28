@@ -61,6 +61,7 @@ class Preg_patient_detail(generics.RetrieveUpdateDestroyAPIView):
         d = PregnancyData.objects.get(patient_id=pk)
         pDetail = Patient.objects.filter(id=pk).values('lmp')[0]
         dataToSend = PregenancySerializer(d).data
+        # print("\ndata prg {}\n".format(dataToSend))
         if(pDetail):
             dataToSend["startDate"] = pDetail['lmp']
         return JsonResponse(
