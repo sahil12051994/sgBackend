@@ -17,6 +17,7 @@ from rest_framework import status
 from cvd_portal.inform import check
 from cvd_portal.fcm import send_message
 from swasthGarbhApp.logic import check_who_following, get_doctor_patients
+from swasthGarbhApp.models import PregnancyData
 
 from random import randint
 
@@ -238,7 +239,7 @@ class PatientOnboarding(APIView):
         response['U_ID'] = u.id
 
         d = Doctor.objects.get(id=data['doctor'])
-
+        print("hahahah")
         p = Patient(
             name=data['name'],
             mobile=data['mobile'],
@@ -260,7 +261,7 @@ class PatientOnboarding(APIView):
         response['ID'] = p.id
         t = Token(user=u)
         t.save()
-        pregData = PregnancyData(patient_id=p.id)
+        pregData = PregnancyData(patient_id=p)
         pregData.save()
         response['Token'] = t.key
 
