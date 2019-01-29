@@ -58,7 +58,8 @@ class PatientImageSerializer(DynamicFieldsModelSerializer):
             'pk',
             'byte',
             'time_stamp',
-            'patient'
+            'patient',
+            'extra_comments_image'
         ]
 
 class PatientImageOnlyDataSerializer(DynamicFieldsModelSerializer):

@@ -65,14 +65,20 @@ class ParticularImageByte(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = (IsAuthenticated,)
     serializer_class = ParticularImageOnlyDataSerializer
 
+
     def get(self, request, pk):
-        print("hello")
         d = Image.objects.get(id=pk)
-        print(d)
         dataToSend = ParticularImageOnlyDataSerializer(d).data
         return JsonResponse(
             dataToSend,
             safe=False,content_type='application/json')
+
+    def delete(self, request, pk):
+        Image.objects.get(id=pk).delete()
+        return JsonResponse(
+            {"success":True},
+            safe=False,content_type='application/json')
+
 
 class PatientImageCreate(generics.CreateAPIView):
     authentication_classes = (TokenAuthentication,)
