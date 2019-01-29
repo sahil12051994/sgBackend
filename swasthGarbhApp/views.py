@@ -19,6 +19,8 @@ from rest_framework import status
 from cvd_portal.fcm import send_message
 from swasthGarbhApp.logic import *
 from random import randint
+import logging
+logger = logging.getLogger(__name__)
 
 class All_preg_patients(generics.ListAPIView):
     authentication_classes = (TokenAuthentication,)

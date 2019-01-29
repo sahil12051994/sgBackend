@@ -20,6 +20,8 @@ from swasthGarbhApp.logic import check_who_following, get_doctor_patients
 from swasthGarbhApp.models import PregnancyData
 
 from random import randint
+import logging
+logger = logging.getLogger(__name__)
 
 
 class PatientDataCreate(generics.CreateAPIView):

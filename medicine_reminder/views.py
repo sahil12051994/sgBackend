@@ -18,6 +18,8 @@ from rest_framework import status
 
 from cvd_portal.fcm import send_message
 from random import randint
+import logging
+logger = logging.getLogger(__name__)
 
 # to get the list of medicines starting containing letter
 class MedicineList(generics.ListAPIView):

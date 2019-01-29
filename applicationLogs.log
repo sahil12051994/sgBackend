@@ -1,0 +1,5 @@
+"POST /sg/api/login HTTP/1.1" 200 92
+"GET /sg/swasthgarbh/patient/1 HTTP/1.1" 200 4297
+INFO 2019-01-29 12:53:53,792 basehttp 30656 140231907727104 "POST /sg/api/login HTTP/1.1" 200 92
+INFO 2019-01-29 13:00:49,091 basehttp 30839 139674915272448 "POST /sg/api/login HTTP/1.1" 200 92
+INFO 2019-01-29 13:01:43,026 basehttp "POST /sg/api/login HTTP/1.1" 200 92
