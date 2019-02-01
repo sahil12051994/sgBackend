@@ -55,7 +55,6 @@ class PatientAllImagesDetail(generics.RetrieveUpdateDestroyAPIView):
     def get(self, request, pk):
         d = Image.objects.filter(patient=pk).order_by('-time_stamp').values()
         dataToSend = PatientImageOnlyDataSerializer(d, many=True).data
-        print(dataToSend)
         return JsonResponse(
             dataToSend,
             safe=False,content_type='application/json')
@@ -174,7 +173,7 @@ class Login(APIView):
     def post(self, request, format=None):
         try:
             data = request.data
-            print(data)
+            print("Login Data : {}".format(data))
         except ParseError as error:
             return Response(
                 'Invalid JSON - {0}'.format(error.detail),
@@ -246,25 +245,42 @@ class PatientOnboarding(APIView):
         u.save()
         response['U_ID'] = u.id
 
-        d = Doctor.objects.get(id=data['doctor'])
-        print("hahahah")
-        p = Patient(
-            name=data['name'],
-            mobile=data['mobile'],
-            email=data['email'],
-            address=data['address'],
-            date_of_birth=data['date_of_birth'],
-            gender=data['gender'],
-            user=u,
-            doctor=d,
-            lmp=data['lmp'],
-            history_high_blood_pressure= data['history_high_blood_pressure'],
-            history_of_preeclampsia= data['history_of_preeclampsia'],
-            mother_or_sister_had_preeclampsia= data['mother_or_sister_had_preeclampsia'],
-            history_of_obesity= data['history_of_obesity'],
-            more_than_one_baby= data['more_than_one_baby'],
-            history_of_diseases= data['history_of_diseases']
-            )
+        if(data['doctor']):
+            d = Doctor.objects.get(id=data['doctor'])
+            p = Patient(
+                name=data['name'],
+                mobile=data['mobile'],
+                email=data['email'],
+                address=data['address'],
+                date_of_birth=data['date_of_birth'],
+                gender=data['gender'],
+                user=u,
+                doctor=d,
+                lmp=data['lmp'],
+                history_high_blood_pressure= data['history_high_blood_pressure'],
+                history_of_preeclampsia= data['history_of_preeclampsia'],
+                mother_or_sister_had_preeclampsia= data['mother_or_sister_had_preeclampsia'],
+                history_of_obesity= data['history_of_obesity'],
+                more_than_one_baby= data['more_than_one_baby'],
+                history_of_diseases= data['history_of_diseases']
+                )
+        else:
+            p = Patient(
+                name=data['name'],
+                mobile=data['mobile'],
+                email=data['email'],
+                address=data['address'],
+                date_of_birth=data['date_of_birth'],
+                gender=data['gender'],
+                user=u,
+                lmp=data['lmp'],
+                history_high_blood_pressure= data['history_high_blood_pressure'],
+                history_of_preeclampsia= data['history_of_preeclampsia'],
+                mother_or_sister_had_preeclampsia= data['mother_or_sister_had_preeclampsia'],
+                history_of_obesity= data['history_of_obesity'],
+                more_than_one_baby= data['more_than_one_baby'],
+                history_of_diseases= data['history_of_diseases']
+                )        
         p.save()
         response['ID'] = p.id
         t = Token(user=u)
@@ -449,8 +465,8 @@ class verify_otp(APIView):
         otp = int(data['otp'])
         o = OTP.objects.get(pk=data['otp_id'])
         # print(o)
-        print(o.otp)
-        print(otp)
+        # print(o.otp)
+        # print(otp)
         if o.otp != otp:
             response['message'] = "OTP does not match"
             return JsonResponse(

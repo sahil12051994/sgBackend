@@ -970,3 +970,1364 @@ INFO 2019-01-29 17:09:09,163 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15381
 INFO 2019-01-29 17:09:09,451 basehttp "GET /sg/api/doctor/1 HTTP/1.1" 200 729
 INFO 2019-01-29 17:09:12,523 basehttp "GET /sg/api/allimages/1 HTTP/1.1" 200 186
 INFO 2019-01-29 17:09:14,390 basehttp "GET /sg/api/singleimage/13 HTTP/1.1" 200 64988
+INFO 2019-01-29 17:14:58,596 basehttp "GET /admin/ HTTP/1.1" 200 14310
+INFO 2019-01-29 17:14:58,633 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-01-29 17:14:58,637 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2019-01-29 17:14:58,637 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-01-29 17:14:58,683 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-01-29 17:14:58,696 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2019-01-29 17:14:58,699 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2019-01-29 17:14:58,702 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2019-01-29 17:14:58,703 basehttp "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2019-01-29 17:14:58,703 basehttp "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2019-01-29 17:14:58,708 basehttp "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2019-01-29 17:15:00,589 basehttp "GET /admin/cvd_portal/patient/ HTTP/1.1" 200 4598
+INFO 2019-01-29 17:15:00,634 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-01-29 17:15:00,635 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-01-29 17:15:00,636 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2019-01-29 17:15:00,639 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-01-29 17:15:00,640 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-01-29 17:15:00,641 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-01-29 17:15:00,642 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-01-29 17:15:00,645 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-01-29 17:15:00,646 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-01-29 17:15:00,651 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-01-29 17:15:00,726 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2019-02-01 10:26:29,506 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2019-02-01 10:26:29,598 basehttp "GET /admin/ HTTP/1.1" 200 14310
+INFO 2019-02-01 10:26:29,689 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:29,690 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:29,690 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:29,701 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:29,755 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:29,756 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:29,756 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:29,787 basehttp "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2019-02-01 10:26:29,787 basehttp "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO 2019-02-01 10:26:29,791 basehttp "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2019-02-01 10:26:33,452 basehttp "GET /admin/cvd_portal/patient/ HTTP/1.1" 200 4598
+INFO 2019-02-01 10:26:33,493 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:33,494 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:33,496 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:33,499 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:33,501 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:33,501 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:33,502 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:33,505 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:33,505 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:33,509 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 10:26:33,613 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2019-02-01 10:26:35,887 basehttp "GET /admin/cvd_portal/patient/1/change/ HTTP/1.1" 200 60073
+INFO 2019-02-01 10:26:35,928 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:35,937 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:35,939 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2019-02-01 10:26:35,939 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:35,941 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2019-02-01 10:26:35,944 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 10:26:35,944 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO 2019-02-01 10:26:36,099 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2019-02-01 10:26:36,100 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2019-02-01 10:26:58,040 basehttp "GET /admin/cvd_portal/patient/1/change/ HTTP/1.1" 200 60073
+INFO 2019-02-01 10:26:58,075 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,075 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,084 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,084 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,084 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,086 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,090 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,092 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,092 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,096 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 10:26:58,097 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,119 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,127 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,132 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,132 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,135 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,143 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,163 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,254 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,255 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,300 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2019-02-01 10:26:58,301 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2019-02-01 10:27:15,193 basehttp "POST /admin/cvd_portal/patient/1/change/ HTTP/1.1" 200 60216
+INFO 2019-02-01 10:27:15,230 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 10:34:38,805 basehttp "POST /admin/cvd_portal/patient/1/change/ HTTP/1.1" 302 0
+INFO 2019-02-01 10:34:38,933 basehttp "GET /admin/cvd_portal/patient/1/change/ HTTP/1.1" 200 60270
+INFO 2019-02-01 10:34:38,971 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:38,976 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:38,980 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:38,983 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:38,984 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:38,988 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:38,988 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:38,990 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:38,995 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 10:34:38,995 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:38,997 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:39,015 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:39,023 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:39,031 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:39,035 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:39,039 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:39,043 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO 2019-02-01 10:34:39,059 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2019-02-01 10:34:39,152 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2019-02-01 10:34:39,153 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2019-02-01 10:34:39,153 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:39,254 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:39,254 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2019-02-01 10:34:50,451 basehttp "POST /admin/cvd_portal/patient/1/change/ HTTP/1.1" 302 0
+INFO 2019-02-01 10:34:50,543 basehttp "GET /admin/cvd_portal/patient/1/change/ HTTP/1.1" 200 60270
+INFO 2019-02-01 10:34:50,627 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 10:34:54,585 basehttp "POST /admin/cvd_portal/patient/1/change/ HTTP/1.1" 302 0
+INFO 2019-02-01 10:34:54,682 basehttp "GET /admin/cvd_portal/patient/1/change/ HTTP/1.1" 200 60270
+INFO 2019-02-01 10:34:54,776 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 10:34:54,777 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2019-02-01 10:34:54,777 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 8192
+INFO 2019-02-01 10:34:54,818 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+WARNING 2019-02-01 10:35:52,038 log Unauthorized: /sg/cbtbiitr/api/device
+WARNING 2019-02-01 10:35:52,039 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 401 14
+WARNING 2019-02-01 10:35:52,088 log Unauthorized: /sg/cbtbiitr/api/device
+WARNING 2019-02-01 10:35:52,089 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 401 14
+INFO 2019-02-01 10:35:59,096 basehttp "POST /sg//api/login HTTP/1.1" 200 92
+INFO 2019-02-01 10:36:01,230 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 10:36:01,316 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 10:42:03,346 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 10:42:03,457 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 10:43:53,551 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 10:43:53,662 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 10:45:14,858 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 10:45:14,968 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 10:45:44,156 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 10:45:44,263 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 10:49:03,815 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 10:49:03,923 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 10:49:21,931 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 10:49:22,050 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+WARNING 2019-02-01 10:49:32,517 log Unauthorized: /sg/cbtbiitr/api/device
+WARNING 2019-02-01 10:49:32,518 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 401 14
+WARNING 2019-02-01 10:49:32,560 log Unauthorized: /sg/cbtbiitr/api/device
+WARNING 2019-02-01 10:49:32,565 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 401 14
+INFO 2019-02-01 10:49:41,062 basehttp "POST /sg//api/login HTTP/1.1" 200 92
+INFO 2019-02-01 10:49:43,173 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 10:49:43,222 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 10:49:52,137 basehttp "POST /admin/cvd_portal/patient/1/change/ HTTP/1.1" 302 0
+INFO 2019-02-01 10:49:52,259 basehttp "GET /admin/cvd_portal/patient/1/change/ HTTP/1.1" 200 61750
+INFO 2019-02-01 10:49:52,307 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2019-02-01 10:49:52,308 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 8192
+INFO 2019-02-01 10:49:52,309 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 10:49:52,310 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2019-02-01 10:49:52,313 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2019-02-01 10:49:52,315 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 8192
+INFO 2019-02-01 10:49:52,404 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2019-02-01 10:49:52,456 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2019-02-01 10:50:00,683 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15374
+INFO 2019-02-01 10:53:47,099 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 10:53:47,213 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15374
+INFO 2019-02-01 10:54:51,556 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 10:54:51,666 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15374
+INFO 2019-02-01 10:55:55,003 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 10:55:55,135 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15374
+INFO 2019-02-01 10:56:05,790 basehttp "POST /admin/cvd_portal/patient/1/change/ HTTP/1.1" 302 0
+INFO 2019-02-01 10:56:05,901 basehttp "GET /admin/cvd_portal/patient/1/change/ HTTP/1.1" 200 62305
+INFO 2019-02-01 10:56:05,948 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 8192
+INFO 2019-02-01 10:56:05,952 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 10:56:05,960 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2019-02-01 10:56:05,962 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 8192
+INFO 2019-02-01 10:56:06,044 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2019-02-01 10:56:10,603 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 10:56:18,319 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 10:56:18,454 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 10:56:57,158 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 10:56:57,282 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 10:57:55,600 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 10:57:55,704 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 10:58:03,606 basehttp "POST /admin/cvd_portal/patient/1/change/ HTTP/1.1" 302 0
+INFO 2019-02-01 10:58:03,710 basehttp "GET /admin/cvd_portal/patient/1/change/ HTTP/1.1" 200 62860
+INFO 2019-02-01 10:58:03,756 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 10:58:07,620 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15374
+INFO 2019-02-01 10:58:07,745 basehttp "GET /sg/api/doctor/1 HTTP/1.1" 200 722
+INFO 2019-02-01 11:00:45,065 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 11:00:45,179 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15374
+INFO 2019-02-01 11:00:45,508 basehttp "GET /sg/api/doctor/1 HTTP/1.1" 200 722
+INFO 2019-02-01 11:00:51,566 basehttp "POST /admin/cvd_portal/patient/1/change/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:00:51,682 basehttp "GET /admin/cvd_portal/patient/1/change/ HTTP/1.1" 200 63045
+INFO 2019-02-01 11:00:51,731 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:00:51,732 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2019-02-01 11:00:51,739 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 8192
+INFO 2019-02-01 11:00:51,820 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2019-02-01 11:01:00,234 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 11:01:00,355 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 11:02:03,892 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 11:02:04,018 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 11:02:57,171 basehttp "GET /sg/api/doctor?mobile=1234567890 HTTP/1.1" 200 383
+INFO 2019-02-01 11:02:59,009 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 11:02:59,025 basehttp "PUT /sg/api/patient/1 HTTP/1.1" 200 9
+INFO 2019-02-01 11:03:01,429 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15374
+INFO 2019-02-01 11:03:01,542 basehttp "GET /sg/api/doctor/3 HTTP/1.1" 200 614
+INFO 2019-02-01 11:03:10,413 basehttp "GET /admin/cvd_portal/patient/1/change/ HTTP/1.1" 200 63192
+INFO 2019-02-01 11:03:10,446 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,451 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,456 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,458 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,462 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,462 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,464 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,466 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,469 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,469 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:03:10,471 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,491 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,499 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,507 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,512 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,512 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,515 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,535 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,627 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,629 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,706 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:10,713 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:03:14,155 basehttp "POST /admin/cvd_portal/patient/1/change/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:03:14,251 basehttp "GET /admin/cvd_portal/patient/1/change/ HTTP/1.1" 200 63415
+INFO 2019-02-01 11:03:14,336 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:03:21,325 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+WARNING 2019-02-01 11:22:32,971 log Unauthorized: /sg/cbtbiitr/api/device
+WARNING 2019-02-01 11:22:32,972 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 401 14
+WARNING 2019-02-01 11:22:33,013 log Unauthorized: /sg/cbtbiitr/api/device
+WARNING 2019-02-01 11:22:33,014 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 401 14
+INFO 2019-02-01 11:22:55,557 basehttp "POST /sg//api/login HTTP/1.1" 200 92
+INFO 2019-02-01 11:22:57,682 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 11:22:57,720 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 11:23:02,563 basehttp "GET /sg/swasthgarbh/patient/1 HTTP/1.1" 200 4293
+INFO 2019-02-01 11:23:06,046 basehttp "GET /sg/swasthgarbh/patient/1 HTTP/1.1" 200 4293
+INFO 2019-02-01 11:23:22,069 basehttp "GET /sg/api/doctor?mobile=1234567890 HTTP/1.1" 200 383
+INFO 2019-02-01 11:23:23,668 basehttp "PUT /sg/api/patient/1 HTTP/1.1" 200 9
+INFO 2019-02-01 11:23:23,672 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+INFO 2019-02-01 11:23:25,132 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15374
+INFO 2019-02-01 11:23:25,239 basehttp "GET /sg/api/doctor/3 HTTP/1.1" 200 614
+INFO 2019-02-01 11:24:39,047 basehttp "POST /admin/cvd_portal/patient/1/change/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:24:39,142 basehttp "GET /admin/cvd_portal/patient/1/change/ HTTP/1.1" 200 63600
+INFO 2019-02-01 11:24:39,184 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2019-02-01 11:24:39,194 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:24:39,194 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 8192
+INFO 2019-02-01 11:24:39,194 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2019-02-01 11:24:39,199 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2019-02-01 11:24:39,200 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 8192
+INFO 2019-02-01 11:24:39,294 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2019-02-01 11:24:39,295 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2019-02-01 11:24:42,097 basehttp "GET /sg/api/patient/1 HTTP/1.1" 200 15377
+WARNING 2019-02-01 11:24:56,093 log Unauthorized: /sg/cbtbiitr/api/device
+WARNING 2019-02-01 11:24:56,094 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 401 14
+WARNING 2019-02-01 11:24:56,144 log Unauthorized: /sg/cbtbiitr/api/device
+WARNING 2019-02-01 11:24:56,145 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 401 14
+WARNING 2019-02-01 11:30:30,350 log Unauthorized: /sg/cbtbiitr/api/device
+WARNING 2019-02-01 11:30:30,350 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 401 14
+WARNING 2019-02-01 11:30:30,394 log Unauthorized: /sg/cbtbiitr/api/device
+WARNING 2019-02-01 11:30:30,395 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 401 14
+ERROR 2019-02-01 11:35:59,787 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 248, in post
+    d = Doctor.objects.get(id=data['doctor'])
+KeyError: 'doctor'
+ERROR 2019-02-01 11:35:59,788 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 17150
+ERROR 2019-02-01 11:36:30,279 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: auth_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 245, in post
+    u.save()
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: auth_user.username
+ERROR 2019-02-01 11:36:30,281 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 20351
+ERROR 2019-02-01 11:36:35,439 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: auth_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 245, in post
+    u.save()
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: auth_user.username
+ERROR 2019-02-01 11:36:35,440 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 20351
+INFO 2019-02-01 11:40:16,748 basehttp "POST /sg/api/login HTTP/1.1" 200 92
+ERROR 2019-02-01 11:43:08,825 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: auth_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 245, in post
+    u.save()
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: auth_user.username
+ERROR 2019-02-01 11:43:08,826 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 20592
+ERROR 2019-02-01 11:43:27,137 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: auth_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 245, in post
+    u.save()
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: auth_user.username
+ERROR 2019-02-01 11:43:27,138 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 20592
+INFO 2019-02-01 11:43:34,424 basehttp "GET /admin/ HTTP/1.1" 200 14731
+INFO 2019-02-01 11:43:35,636 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 13365
+INFO 2019-02-01 11:43:35,679 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:43:35,726 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2019-02-01 11:43:35,726 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2019-02-01 11:43:35,780 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:43:52,541 basehttp "POST /admin/auth/user/ HTTP/1.1" 200 4241
+INFO 2019-02-01 11:43:52,580 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:43:55,389 basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:43:55,452 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12223
+INFO 2019-02-01 11:43:55,535 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:43:55,574 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:43:55,575 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+ERROR 2019-02-01 11:44:38,035 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 248, in post
+    d = Doctor.objects.get(id=data['doctor'])
+KeyError: 'doctor'
+ERROR 2019-02-01 11:44:38,036 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 17391
+ERROR 2019-02-01 11:45:09,155 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: auth_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 245, in post
+    u.save()
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: auth_user.username
+ERROR 2019-02-01 11:45:09,156 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 20592
+INFO 2019-02-01 11:45:15,006 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12523
+INFO 2019-02-01 11:45:15,037 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,038 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,039 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,046 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,047 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,048 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,048 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,049 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,055 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:45:15,056 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,056 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,092 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,092 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,178 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,180 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,180 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,182 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:15,183 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:45:22,049 basehttp "POST /admin/auth/user/ HTTP/1.1" 200 3344
+INFO 2019-02-01 11:45:23,032 basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:45:23,100 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12222
+INFO 2019-02-01 11:45:23,183 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+ERROR 2019-02-01 11:45:29,928 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 248, in post
+    d = Doctor.objects.get(id=data['doctor'])
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+cvd_portal.models.Doctor.DoesNotExist: Doctor matching query does not exist.
+ERROR 2019-02-01 11:45:29,928 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 17801
+INFO 2019-02-01 11:47:41,437 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12523
+INFO 2019-02-01 11:47:41,464 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,472 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,472 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,479 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,479 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,483 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,483 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,484 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,490 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,490 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:47:41,492 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,507 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,523 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,613 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,615 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,617 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,617 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:41,618 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:47:45,235 basehttp "POST /admin/auth/user/ HTTP/1.1" 200 3344
+INFO 2019-02-01 11:47:46,142 basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:47:46,208 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12222
+INFO 2019-02-01 11:47:46,287 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+ERROR 2019-02-01 11:47:49,269 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 251, in post
+    d = null
+NameError: name 'null' is not defined
+ERROR 2019-02-01 11:47:49,270 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 17400
+INFO 2019-02-01 11:49:21,057 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12523
+INFO 2019-02-01 11:49:21,093 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,096 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,104 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,104 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,105 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,110 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,110 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,111 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,113 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,118 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:49:21,119 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,135 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,147 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,239 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,240 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,240 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,241 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:21,245 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:26,145 basehttp "POST /admin/auth/user/ HTTP/1.1" 200 3344
+INFO 2019-02-01 11:49:27,194 basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:49:27,263 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12222
+INFO 2019-02-01 11:49:27,337 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:49:30,840 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 200 75
+INFO 2019-02-01 11:49:38,361 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12523
+INFO 2019-02-01 11:49:38,401 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,401 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,401 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,402 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,404 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,407 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,407 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,409 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,412 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,415 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:49:38,417 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,443 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,451 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,545 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,546 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,546 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,546 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:38,547 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:49:42,205 basehttp "POST /admin/auth/user/ HTTP/1.1" 200 3813
+INFO 2019-02-01 11:49:43,603 basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:49:43,660 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12222
+INFO 2019-02-01 11:49:43,736 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+ERROR 2019-02-01 11:49:50,743 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 248, in post
+    if(data['doctor']):
+KeyError: 'doctor'
+ERROR 2019-02-01 11:49:50,745 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 17128
+ERROR 2019-02-01 11:49:59,204 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: auth_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 245, in post
+    u.save()
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: auth_user.username
+ERROR 2019-02-01 11:49:59,206 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 20351
+ERROR 2019-02-01 11:50:11,682 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: auth_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 245, in post
+    u.save()
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: auth_user.username
+ERROR 2019-02-01 11:50:11,682 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 20592
+INFO 2019-02-01 11:50:17,064 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12523
+INFO 2019-02-01 11:50:17,102 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,104 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,105 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,106 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,107 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,109 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,111 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,111 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,112 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,117 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:50:17,119 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,143 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,151 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,239 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,243 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,243 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,245 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:17,246 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:21,616 basehttp "POST /admin/auth/user/ HTTP/1.1" 200 3344
+INFO 2019-02-01 11:50:22,409 basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:50:22,499 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12222
+INFO 2019-02-01 11:50:22,576 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+ERROR 2019-02-01 11:50:27,282 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 248, in post
+    if(data['doctor']):
+KeyError: 'doctor'
+ERROR 2019-02-01 11:50:27,282 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 17369
+INFO 2019-02-01 11:50:55,454 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12523
+INFO 2019-02-01 11:50:55,492 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,494 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,494 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,495 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,495 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,503 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,504 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,505 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,506 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,508 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:50:55,509 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,535 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,543 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,631 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,632 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,635 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,639 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:55,639 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:50:59,105 basehttp "POST /admin/auth/user/ HTTP/1.1" 200 3344
+INFO 2019-02-01 11:50:59,903 basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:50:59,966 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12222
+INFO 2019-02-01 11:51:00,047 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+ERROR 2019-02-01 11:51:16,883 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 248, in post
+    if(data['doctor']):
+KeyError: 'doctor'
+ERROR 2019-02-01 11:51:16,884 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 17128
+ERROR 2019-02-01 11:51:40,326 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: auth_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 245, in post
+    u.save()
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: auth_user.username
+ERROR 2019-02-01 11:51:40,327 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 20592
+INFO 2019-02-01 11:51:43,823 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12523
+INFO 2019-02-01 11:51:43,859 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:43,860 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:43,862 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:43,862 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:43,864 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:43,865 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:43,870 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:43,871 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:43,871 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:43,875 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:51:43,877 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:43,903 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:43,907 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:43,999 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:44,001 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:44,002 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:44,002 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:44,003 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:51:47,066 basehttp "POST /admin/auth/user/ HTTP/1.1" 200 3344
+INFO 2019-02-01 11:51:48,078 basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:51:48,144 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12222
+INFO 2019-02-01 11:51:48,219 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+ERROR 2019-02-01 11:51:51,126 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 248, in post
+    if(data['doctor']):
+KeyError: 'doctor'
+ERROR 2019-02-01 11:51:51,127 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 17369
+INFO 2019-02-01 11:52:12,693 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12523
+INFO 2019-02-01 11:52:12,727 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,729 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,729 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,729 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,729 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,736 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,737 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,737 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,739 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:52:12,740 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,741 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,771 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,779 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,867 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,867 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,870 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,876 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:12,876 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:16,072 basehttp "POST /admin/auth/user/ HTTP/1.1" 200 3344
+INFO 2019-02-01 11:52:17,017 basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:52:17,081 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12222
+INFO 2019-02-01 11:52:17,156 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+ERROR 2019-02-01 11:52:19,879 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 248, in post
+    if(data['doctor']):
+KeyError: 'doctor'
+ERROR 2019-02-01 11:52:19,880 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 17369
+INFO 2019-02-01 11:52:36,103 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12523
+INFO 2019-02-01 11:52:36,139 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,141 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,142 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,142 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,143 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,143 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,148 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,150 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,151 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:52:36,152 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,153 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,183 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,187 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,279 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,280 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,281 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,282 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:36,282 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:52:39,505 basehttp "POST /admin/auth/user/ HTTP/1.1" 200 3344
+INFO 2019-02-01 11:52:40,588 basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:52:40,654 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12222
+INFO 2019-02-01 11:52:40,736 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+ERROR 2019-02-01 11:52:48,303 log Internal Server Error: /sg/api/onboard/patient
+Traceback (most recent call last):
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sahil/swasthGarbh/sgenv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sahil/swasthGarbh/sgBackend/cvd_portal/views.py", line 271, in post
+    email=data['email'],
+KeyError: 'email'
+ERROR 2019-02-01 11:52:48,304 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 500 17376
+INFO 2019-02-01 11:53:16,527 basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:53:16,583 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12702
+INFO 2019-02-01 11:53:16,655 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:53:16,698 basehttp "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+INFO 2019-02-01 11:53:19,534 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12523
+INFO 2019-02-01 11:53:19,570 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,572 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,572 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,573 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,573 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,574 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,577 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,578 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,582 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,584 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:53:19,586 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,616 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,616 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,700 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,700 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,701 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,708 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:19,708 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:22,764 basehttp "POST /admin/auth/user/ HTTP/1.1" 200 3344
+INFO 2019-02-01 11:53:23,695 basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:53:23,763 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12222
+INFO 2019-02-01 11:53:23,846 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:53:31,977 basehttp "POST /sg/api/onboard/patient HTTP/1.1" 200 75
+INFO 2019-02-01 11:53:34,098 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 11:53:34,116 basehttp "GET /sg/api/patient/13 HTTP/1.1" 200 652
+INFO 2019-02-01 11:53:41,993 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12523
+INFO 2019-02-01 11:53:42,025 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,026 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,027 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,027 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,028 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,029 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,029 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,035 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,036 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,039 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:53:42,040 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,072 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,072 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,158 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,159 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,160 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,161 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:42,163 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2019-02-01 11:53:45,902 basehttp "GET /admin/auth/user/34/change/ HTTP/1.1" 200 21508
+INFO 2019-02-01 11:53:45,940 basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+INFO 2019-02-01 11:53:45,940 basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12712
+INFO 2019-02-01 11:53:45,946 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:53:45,949 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2019-02-01 11:53:46,015 basehttp "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2019-02-01 11:53:46,015 basehttp "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2019-02-01 11:53:46,016 basehttp "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2019-02-01 11:53:51,030 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 12523
+INFO 2019-02-01 11:54:04,713 basehttp "GET /sg/api/doctor?mobile=1234567890 HTTP/1.1" 200 383
+INFO 2019-02-01 11:54:05,966 basehttp "GET /sg/api/patient/13 HTTP/1.1" 200 652
+INFO 2019-02-01 11:54:06,001 basehttp "PUT /sg/api/patient/13 HTTP/1.1" 200 10
+INFO 2019-02-01 11:54:07,497 basehttp "GET /sg/api/patient/13 HTTP/1.1" 200 649
+INFO 2019-02-01 11:54:07,626 basehttp "GET /sg/api/doctor/3 HTTP/1.1" 200 613
+INFO 2019-02-01 11:57:36,219 basehttp "GET /admin/ HTTP/1.1" 200 14236
+INFO 2019-02-01 11:57:37,909 basehttp "GET /admin/cvd_portal/patient/ HTTP/1.1" 200 4601
+INFO 2019-02-01 11:57:37,943 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:57:39,167 basehttp "GET /admin/cvd_portal/patient/13/change/ HTTP/1.1" 200 63493
+INFO 2019-02-01 11:57:39,208 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:57:44,950 basehttp "POST /admin/cvd_portal/patient/13/change/ HTTP/1.1" 302 0
+INFO 2019-02-01 11:57:45,046 basehttp "GET /admin/cvd_portal/patient/13/change/ HTTP/1.1" 200 63714
+INFO 2019-02-01 11:57:45,126 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 11:57:48,092 basehttp "GET /sg/api/patient/13 HTTP/1.1" 200 652
+INFO 2019-02-01 11:58:12,006 basehttp "GET /sg/api/patient/13 HTTP/1.1" 200 652
+INFO 2019-02-01 11:58:20,938 basehttp "GET /sg/api/doctor?mobile=1234567890 HTTP/1.1" 200 383
+INFO 2019-02-01 11:58:23,300 basehttp "PUT /sg/api/patient/13 HTTP/1.1" 200 10
+INFO 2019-02-01 12:01:18,261 basehttp "GET /sg/api/patient/13 HTTP/1.1" 200 649
+INFO 2019-02-01 12:01:18,403 basehttp "GET /sg/api/doctor/3 HTTP/1.1" 200 613
+INFO 2019-02-01 12:01:22,897 basehttp "GET /admin/cvd_portal/patient/13/change/ HTTP/1.1" 200 63493
+INFO 2019-02-01 12:01:22,932 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:22,935 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:22,940 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:22,942 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:22,943 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:22,943 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:22,947 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:22,950 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:22,950 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:22,955 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 12:01:22,957 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:22,971 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:22,983 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:22,992 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:22,992 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:22,995 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:22,999 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:23,015 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:23,104 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:23,105 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:23,164 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:23,164 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2019-02-01 12:01:25,871 basehttp "POST /admin/cvd_portal/patient/13/change/ HTTP/1.1" 302 0
+INFO 2019-02-01 12:01:25,969 basehttp "GET /admin/cvd_portal/patient/13/change/ HTTP/1.1" 200 63714
+INFO 2019-02-01 12:01:26,051 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 12:01:28,477 basehttp "GET /sg/api/patient/13 HTTP/1.1" 200 652
+INFO 2019-02-01 12:01:36,465 basehttp "GET /sg/api/doctor?mobile=1234567890 HTTP/1.1" 200 383
+INFO 2019-02-01 12:01:37,692 basehttp "PUT /sg/api/patient/13 HTTP/1.1" 200 10
+INFO 2019-02-01 12:01:40,564 basehttp "GET /sg/api/patient/13 HTTP/1.1" 200 649
+INFO 2019-02-01 12:01:40,655 basehttp "GET /sg/api/doctor/3 HTTP/1.1" 200 613
+INFO 2019-02-01 12:02:17,760 basehttp "GET /sg/api/patient/13 HTTP/1.1" 200 649
+INFO 2019-02-01 12:02:17,864 basehttp "GET /sg/api/doctor/3 HTTP/1.1" 200 613
+INFO 2019-02-01 12:02:21,173 basehttp "GET /admin/cvd_portal/patient/13/change/ HTTP/1.1" 200 63493
+INFO 2019-02-01 12:02:21,203 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,203 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,213 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,214 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,214 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,214 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,215 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,221 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,222 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,224 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,227 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 12:02:21,255 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,259 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,264 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,264 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,267 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,271 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,299 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,391 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,391 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,463 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:21,463 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2019-02-01 12:02:23,751 basehttp "POST /admin/cvd_portal/patient/13/change/ HTTP/1.1" 302 0
+INFO 2019-02-01 12:02:23,846 basehttp "GET /admin/cvd_portal/patient/13/change/ HTTP/1.1" 200 63714
+INFO 2019-02-01 12:02:23,932 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 12:02:26,195 basehttp "GET /sg/api/patient/13 HTTP/1.1" 200 652
+INFO 2019-02-01 12:02:48,962 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 12:02:49,084 basehttp "GET /sg/api/patient/13 HTTP/1.1" 200 652
+INFO 2019-02-01 12:02:56,653 basehttp "GET /sg/api/doctor?mobile=1234567890 HTTP/1.1" 200 383
+INFO 2019-02-01 12:02:57,821 basehttp "PUT /sg/api/patient/13 HTTP/1.1" 200 10
+INFO 2019-02-01 12:02:57,881 basehttp "GET /sg/api/patient/13 HTTP/1.1" 200 649
+INFO 2019-02-01 12:02:57,950 basehttp "GET /sg/api/doctor/3 HTTP/1.1" 200 613
+INFO 2019-02-01 12:03:16,380 basehttp "GET /admin/cvd_portal/patient/13/change/ HTTP/1.1" 200 63678
+INFO 2019-02-01 12:03:16,421 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,421 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,422 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,424 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,425 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,429 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,431 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,433 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,434 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,436 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 12:03:16,438 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,463 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,471 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,476 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,476 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,479 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,483 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,507 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,598 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,598 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,648 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:16,648 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2019-02-01 12:03:19,626 basehttp "POST /admin/cvd_portal/patient/13/change/ HTTP/1.1" 302 0
+INFO 2019-02-01 12:03:19,725 basehttp "GET /admin/cvd_portal/patient/13/change/ HTTP/1.1" 200 63899
+INFO 2019-02-01 12:03:19,807 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2019-02-01 12:04:56,497 basehttp "POST /sg/cbtbiitr/api/device HTTP/1.1" 200 11
+INFO 2019-02-01 12:04:56,589 basehttp "GET /sg/api/patient/13 HTTP/1.1" 200 652

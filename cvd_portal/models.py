@@ -42,7 +42,7 @@ class Patient(models.Model):
     gender = models.IntegerField(default=1)
     email = models.EmailField(blank=True)
     address = models.TextField(null=True)
-    doctor = models.ForeignKey(Doctor, related_name="patients", null=True, on_delete=models.CASCADE)
+    doctor = models.ForeignKey(Doctor, related_name="patients", blank=True, null=True, on_delete=models.CASCADE)
     mobile = models.IntegerField(blank=True)
     device = models.OneToOneField(Device, null=True, related_name='patient', on_delete=models.CASCADE)
     user = models.OneToOneField(
