@@ -108,13 +108,56 @@ class PatientDetail(generics.RetrieveUpdateDestroyAPIView):
                 'Invalid JSON - {0}'.format(error.detail),
                 status=status.HTTP_400_BAD_REQUEST
             )
-        d = Doctor.objects.get(pk=data['d_id'])
+
         p = Patient.objects.get(pk=pk)
-        p.doctor = d
+        if 'd_id' in data:
+            d = Doctor.objects.get(pk=data['d_id'])
+            p.doctor = d
+        if 'verified' in data:
+            p.verified = data['verified']
         p.save()
         return JsonResponse(
             {"id": p.id}, safe=False, content_type='application/json')
 
+class ResultsByDoc(generics.RetrieveUpdateDestroyAPIView):
+    authentication_classes = (TokenAuthentication,)
+    permission_classes = (IsAuthenticated,)
+    serializer_class = resultsByDocSerializer
+
+    def get(self, request, pk):
+        p = Patient.objects.get(id=pk)
+        # patientDataByDoctor = PatientDataByDoctor(patient_id=p)
+        # patientDataByDoctor.save()
+        d, created = PatientDataByDoctor.objects.get_or_create(patient_id=p)
+        if created:
+            # means you have created a new entry for people after feature added so that model is created for them
+            dataToSend = resultsByDocSerializer(created).data
+            return JsonResponse(
+                dataToSend,
+                safe=False, content_type='application/json')
+        else:
+            # d just refers to the existing one
+            dataToSend = resultsByDocSerializer(d).data
+            return JsonResponse(
+                dataToSend,
+                safe=False, content_type='application/json')
+
+    def update(self, request, pk):
+        try:
+            data = request.data
+        except ParseError as error:
+            return Response(
+                'Invalid JSON - {0}'.format(error.detail),
+                status=status.HTTP_400_BAD_REQUEST
+            )
+        if 'preeclampsia' in data:
+            d = PatientDataByDoctor.objects.get(patient_id=pk)
+            d.preeclampsia = data['preeclampsia']
+            d.save()
+            dataToSend = resultsByDocSerializer(d).data
+            return JsonResponse(
+                dataToSend,
+                safe=False, content_type='application/json')
 
 class PatientList(generics.ListCreateAPIView):
     authentication_classes = (TokenAuthentication,)
@@ -280,13 +323,15 @@ class PatientOnboarding(APIView):
                 history_of_obesity= data['history_of_obesity'],
                 more_than_one_baby= data['more_than_one_baby'],
                 history_of_diseases= data['history_of_diseases']
-                )        
+                )
         p.save()
         response['ID'] = p.id
         t = Token(user=u)
         t.save()
         pregData = PregnancyData(patient_id=p)
         pregData.save()
+        patientDataByDoctor = PatientDataByDoctor(patient_id=p)
+        patientDataByDoctor.save()
         response['Token'] = t.key
 
         return JsonResponse(

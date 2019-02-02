@@ -29,6 +29,7 @@ class Doctor(models.Model):
     speciality = models.CharField(max_length=100, blank=True)
     designation = models.CharField(max_length=100, blank=True)
     device = models.OneToOneField(Device, null=True, related_name='doctor', on_delete=models.CASCADE)
+    verified = models.BooleanField(default=False)
     user = models.OneToOneField(
         User, on_delete=models.CASCADE, null=True)
 
@@ -54,7 +55,7 @@ class Patient(models.Model):
     history_of_obesity = models.BooleanField(default=False)
     more_than_one_baby = models.BooleanField(default=False)
     history_of_diseases = models.BooleanField(default=False)
-
+    verified = models.BooleanField(default=False)
     def __str__(self):
         return self.name
 
@@ -62,6 +63,15 @@ class Patient(models.Model):
     #     super(Patient, self).save(**kwargs)
     #     pregData = PregnancyData(patient_id=self)
     #     pregData.save()
+
+class PatientDataByDoctor(models.Model):
+    preeclampsia = models.BooleanField(default=False)
+    patient_id = models.OneToOneField(
+        Patient,
+        on_delete=models.CASCADE,
+        primary_key=True,
+    )
+
 
 class PatientData(models.Model):
     patient = models.ForeignKey(Patient, related_name='data', on_delete=models.CASCADE)

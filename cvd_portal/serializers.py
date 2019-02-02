@@ -130,7 +130,8 @@ class PatientSerializer(DynamicFieldsModelSerializer):
             'mother_or_sister_had_preeclampsia',
             'history_of_obesity',
             'more_than_one_baby',
-            'history_of_diseases'
+            'history_of_diseases',
+            'verified'
         ]
 
     def get_patient_data(self, obj):
@@ -145,6 +146,14 @@ class PatientSerializer(DynamicFieldsModelSerializer):
         ser = PatientImageNameSerializer(qset, many=True, read_only=True)
         return ser.data
 
+class resultsByDocSerializer(DynamicFieldsModelSerializer):
+    class Meta:
+        model = PatientDataByDoctor
+        fields = [
+            'pk',
+            'patient_id',
+            'preeclampsia'
+        ]
 
 class PatientSerializer1(DynamicFieldsModelSerializer):
 
@@ -160,7 +169,8 @@ class PatientSerializer1(DynamicFieldsModelSerializer):
             # 'mobile',
             # 'data',
             'gender',
-            'lmp'
+            'lmp',
+            'verified'
             # 'user',
             # 'device'
         ]
@@ -183,7 +193,8 @@ class DoctorSerializer(DynamicFieldsModelSerializer):
             'designation',
             'user',
             'patients',
-            'device'
+            'device',
+            'verified'
         ]
 
 
