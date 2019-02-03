@@ -35,7 +35,8 @@ class MedicinePerPatientSerialzier(DynamicFieldsModelSerializer):
             'medicine_extra_comments',
             'medicine_start',
             'medicine_end',
-            'medicine_Image'
+            'medicine_Image',
+            'isSOS'
         ]
 
 class HospitalSerializer(DynamicFieldsModelSerializer):

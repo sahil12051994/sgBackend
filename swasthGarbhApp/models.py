@@ -71,6 +71,7 @@ class Medicine(models.Model):
     medicine_extra_comments = models.TextField(default="")
     medicine_start = CustomDateTimeField(default=datetime.datetime.now)
     medicine_end = CustomDateTimeField(default=datetime.datetime.now)
+    isSOS = models.BooleanField(default=False)
 
 class Hospital(models.Model):
     patient_id = models.ForeignKey(Patient, on_delete=models.CASCADE, related_name='patientsPregHospitals')

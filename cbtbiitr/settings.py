@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework.authtoken',
     'rest_framework',
+    'dbbackup',
+    'django_cron',
     'cvd_portal',
     'swasthGarbhApp',
     'medicine_reminder'
@@ -97,7 +99,14 @@ DATABASES = {
     }
 }
 
+# DBBACKUP_STORAGE = 'dbbackup.storage.filesystem_storage'
+DBBACKUP_STORAGE = 'django.core.files.storage.FileSystemStorage'
+DBBACKUP_STORAGE_OPTIONS = {'location': '/home/sahil/swasthGarbhBackups'}
 
+#https://django-cron.readthedocs.io/en/latest/installation.html
+CRON_CLASSES = [
+    "cbtbiitr.cron.Backup",
+]
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
 
