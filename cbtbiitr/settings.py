@@ -111,6 +111,7 @@ DBBACKUP_STORAGE_OPTIONS = {
 
 # python manage.py crontab add show remove
 # https://pypi.org/project/django-crontab/
+# https://crontab.guru
 CRONJOBS = [
     ('0 0 * * *', 'django.core.management.call_command', ['dbbackup'])
 ]
