@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'rest_framework',
     'dbbackup',
-    'django_cron',
+    'django_crontab',
     'cvd_portal',
     'swasthGarbhApp',
     'medicine_reminder'
@@ -100,13 +100,21 @@ DATABASES = {
 }
 
 # DBBACKUP_STORAGE = 'dbbackup.storage.filesystem_storage'
-DBBACKUP_STORAGE = 'django.core.files.storage.FileSystemStorage'
-DBBACKUP_STORAGE_OPTIONS = {'location': '/home/sahil/swasthGarbhBackups'}
+# DBBACKUP_STORAGE = 'django.core.files.storage.FileSystemStorage'
+# DBBACKUP_STORAGE_OPTIONS = {'location': '/home/sahil/swasthGarbhBackups'}
 
-#https://django-cron.readthedocs.io/en/latest/installation.html
-CRON_CLASSES = [
-    "cbtbiitr.cron.Backup",
+# For Cron Job FTP Storage
+DBBACKUP_STORAGE = 'storages.backends.ftp.FTPStorage'
+DBBACKUP_STORAGE_OPTIONS = {
+    'location': 'ftp://sahil:compbio27@192.168.103.252:21'
+}
+
+# python manage.py crontab add show remove
+# https://pypi.org/project/django-crontab/
+CRONJOBS = [
+    ('0 0 * * *', 'django.core.management.call_command', ['dbbackup'])
 ]
+
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
 
