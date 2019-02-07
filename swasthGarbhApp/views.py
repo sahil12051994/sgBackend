@@ -87,6 +87,18 @@ class Medicine_particular_patient_detail(generics.ListCreateAPIView):
     def post(self, request, *args, **kwargs):
         return super().post(request)
 
+class particular_medicine(generics.RetrieveUpdateDestroyAPIView):
+    authentication_classes = (TokenAuthentication,)
+    permission_classes = (IsAuthenticated,)
+    serializer_class = MedicinePerPatientSerialzier
+    queryset = Medicine.objects.all()
+
+    def get(self, request, pk):
+        d = Medicine.objects.get(id=pk)
+        return JsonResponse(
+            MedicinePerPatientSerialzier(d).data,
+            safe=False, content_type='application/json')
+
 class Hospital_detail(generics.ListCreateAPIView):
     authentication_classes = (TokenAuthentication,)
     permission_classes = (IsAuthenticated,)
