@@ -23,6 +23,7 @@ class DynamicFieldsModelSerializer(serializers.ModelSerializer):
             for field_name in existing - allowed:
                 self.fields.pop(field_name)
 
+
 class PatientDataSerializer(DynamicFieldsModelSerializer):
     patient = serializers.PrimaryKeyRelatedField(
         queryset=Patient.objects.all())
@@ -62,6 +63,7 @@ class PatientImageSerializer(DynamicFieldsModelSerializer):
             'extra_comments_image'
         ]
 
+
 class PatientImageOnlyDataSerializer(DynamicFieldsModelSerializer):
 
     class Meta:
@@ -72,6 +74,7 @@ class PatientImageOnlyDataSerializer(DynamicFieldsModelSerializer):
             'time_stamp'
         ]
 
+
 class ParticularImageOnlyDataSerializer(DynamicFieldsModelSerializer):
 
     class Meta:
@@ -81,6 +84,7 @@ class ParticularImageOnlyDataSerializer(DynamicFieldsModelSerializer):
             'byte',
             'time_stamp'
         ]
+
 
 class PatientImageNameSerializer(DynamicFieldsModelSerializer):
     patient = serializers.PrimaryKeyRelatedField(
@@ -117,6 +121,7 @@ class PatientSerializer(DynamicFieldsModelSerializer):
             'date_of_birth',
             'address',
             'doctor',
+            'UHID',
             'email',
             'mobile',
             'data',
@@ -132,6 +137,7 @@ class PatientSerializer(DynamicFieldsModelSerializer):
             'more_than_one_baby',
             'history_of_diseases',
             'verified'
+
         ]
 
     def get_patient_data(self, obj):
@@ -146,6 +152,7 @@ class PatientSerializer(DynamicFieldsModelSerializer):
         ser = PatientImageNameSerializer(qset, many=True, read_only=True)
         return ser.data
 
+
 class resultsByDocSerializer(DynamicFieldsModelSerializer):
     class Meta:
         model = PatientDataByDoctor
@@ -154,6 +161,7 @@ class resultsByDocSerializer(DynamicFieldsModelSerializer):
             'patient_id',
             'preeclampsia'
         ]
+
 
 class PatientSerializer1(DynamicFieldsModelSerializer):
 
@@ -170,7 +178,8 @@ class PatientSerializer1(DynamicFieldsModelSerializer):
             # 'data',
             'gender',
             'lmp',
-            'verified'
+            'verified',
+            'UHID'
             # 'user',
             # 'device'
         ]

@@ -41,6 +41,7 @@ class Patient(models.Model):
     name = models.CharField(max_length=60, default="Sahil")
     date_of_birth = models.IntegerField(default=0)
     gender = models.IntegerField(default=1)
+    UHID = models.CharField(max_length=60, null=True)
     email = models.EmailField(blank=True)
     address = models.TextField(null=True)
     doctor = models.ForeignKey(Doctor, related_name="patients", blank=True, null=True, on_delete=models.CASCADE)
@@ -87,8 +88,9 @@ class PatientData(models.Model):
     decreased_fetal_movements = models.BooleanField(default=False)
     swelling_in_hands_or_face = models.BooleanField(default=False)
     hyper_tension = models.BooleanField(default=False)
-    extra_comments = models.TextField(default="")
+    extra_comments = models.TextField(default = "", blank=True)
     time_stamp = CustomDateTimeField(default=datetime.datetime.now)
+
 
     def __str__(self):
         return self.patient.name + ' ' + str(self.time_stamp)

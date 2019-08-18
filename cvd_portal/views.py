@@ -290,24 +290,48 @@ class PatientOnboarding(APIView):
 
         if(data['doctor']):
             d = Doctor.objects.get(id=data['doctor'])
-            p = Patient(
-                name=data['name'],
-                mobile=data['mobile'],
-                email=data['email'],
-                address=data['address'],
-                date_of_birth=data['date_of_birth'],
-                gender=data['gender'],
-                user=u,
-                doctor=d,
-                lmp=data['lmp'],
-                history_high_blood_pressure= data['history_high_blood_pressure'],
-                history_of_preeclampsia= data['history_of_preeclampsia'],
-                mother_or_sister_had_preeclampsia= data['mother_or_sister_had_preeclampsia'],
-                history_of_obesity= data['history_of_obesity'],
-                more_than_one_baby= data['more_than_one_baby'],
-                history_of_diseases= data['history_of_diseases']
-                )
+            print("yaha suuu")
+            if(data['UHID']):
+                print("yaha suuu11111")
+                p = Patient(
+                    name=data['name'],
+                    mobile=data['mobile'],
+                    email=data['email'],
+                    address=data['address'],
+                    date_of_birth=data['date_of_birth'],
+                    gender=data['gender'],
+                    user=u,
+                    doctor=d,
+                    lmp=data['lmp'],
+                    history_high_blood_pressure= data['history_high_blood_pressure'],
+                    history_of_preeclampsia= data['history_of_preeclampsia'],
+                    mother_or_sister_had_preeclampsia= data['mother_or_sister_had_preeclampsia'],
+                    history_of_obesity= data['history_of_obesity'],
+                    more_than_one_baby= data['more_than_one_baby'],
+                    history_of_diseases= data['history_of_diseases'],
+                    UHID= data['UHID']
+                    )
+            else:
+                print("yaha suuu222")
+                p = Patient(
+                    name=data['name'],
+                    mobile=data['mobile'],
+                    email=data['email'],
+                    address=data['address'],
+                    date_of_birth=data['date_of_birth'],
+                    gender=data['gender'],
+                    user=u,
+                    doctor=d,
+                    lmp=data['lmp'],
+                    history_high_blood_pressure= data['history_high_blood_pressure'],
+                    history_of_preeclampsia= data['history_of_preeclampsia'],
+                    mother_or_sister_had_preeclampsia= data['mother_or_sister_had_preeclampsia'],
+                    history_of_obesity= data['history_of_obesity'],
+                    more_than_one_baby= data['more_than_one_baby'],
+                    history_of_diseases= data['history_of_diseases']
+                    )
         else:
+            print("eeeb yahaa suuu")
             p = Patient(
                 name=data['name'],
                 mobile=data['mobile'],
@@ -326,6 +350,8 @@ class PatientOnboarding(APIView):
                 )
         p.save()
         response['ID'] = p.id
+        #response['newPatientData'] = p
+        #print(p)
         t = Token(user=u)
         t.save()
         pregData = PregnancyData(patient_id=p)
@@ -342,16 +368,22 @@ class DocOnboarding(APIView):
     def post(self, request, format=None):
         try:
             data = request.data
+            print(data)
         except ParseError as error:
             return Response(
                 'Invalid JSON - {0}'.format(error.detail),
                 status=status.HTTP_400_BAD_REQUEST
             )
+
         response = {}
+        print(response)
         u = User(username=data['mobile'])
+        print(u)
         u.set_password(data['password'])
         u.save()
         response['U_ID'] = u.id
+        print(response)
+
 
         d = Doctor(
             name=data['name'],
@@ -363,6 +395,7 @@ class DocOnboarding(APIView):
             user=u)
         d.save()
         response['ID'] = d.id
+        print(response)
 
         t = Token(user=u)
         t.save()

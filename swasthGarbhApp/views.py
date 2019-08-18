@@ -71,6 +71,7 @@ class Preg_patient_detail(generics.RetrieveUpdateDestroyAPIView):
             safe=False, content_type='application/json')
 
     def patch(self, request, *args, **kwargs):
+        print(request.body)
         return self.partial_update(request, *args, **kwargs)
 
 class Medicine_particular_patient_detail(generics.ListCreateAPIView):
