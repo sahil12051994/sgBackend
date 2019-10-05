@@ -113,7 +113,8 @@ DBBACKUP_STORAGE_OPTIONS = {
 # https://pypi.org/project/django-crontab/
 # https://crontab.guru
 CRONJOBS = [
-    ('0 0 * * *', 'django.core.management.call_command', ['dbbackup'])
+    ('0 0 * * *', 'django.core.management.call_command', ['dbbackup']),
+    ('36 15 * * *', 'cvd_portal.cronJobs.checkNotificationPending'),
 ]
 
 # Password validation
