@@ -114,7 +114,7 @@ DBBACKUP_STORAGE_OPTIONS = {
 # https://crontab.guru
 CRONJOBS = [
     ('0 0 * * *', 'django.core.management.call_command', ['dbbackup']),
-    ('36 15 * * *', 'cvd_portal.cronJobs.checkNotificationPending'),
+    ('49 17 * * *', 'cvd_portal.cronJobs.checkNotificationPending', '>> /home/user/gitRepos/swasthGarbh/sgBackend/cron.log'),
 ]
 
 # Password validation

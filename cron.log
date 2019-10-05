@@ -1,0 +1,13 @@
+
+PregnancyData object
+2
+unsupported operand type(s) for -: 'datetime.date' and 'datetime.datetime'
+PregnancyData object
+3
+unsupported operand type(s) for -: 'datetime.date' and 'datetime.datetime'
+PregnancyData object
+2
+datesssss 1 1 1 1 1 1 1 1
+PregnancyData object
+3
+datesssss -80 -136 -178 -206 -234 -248 -262 -278
