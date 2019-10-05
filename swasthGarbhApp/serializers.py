@@ -93,6 +93,8 @@ class PregenancySerializer(DynamicFieldsModelSerializer):
         model = PregnancyData
         fields = [
         'pk',
+        'complications',
+        'medicines',
         'patient_id',
         'startDate',
         'anc_1',

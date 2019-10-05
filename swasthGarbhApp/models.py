@@ -85,8 +85,6 @@ class PregnancyData(models.Model):
     anc1_examination_general_Cyanosis = models.BooleanField(default=0)
     anc1_examination_general_Edema = models.BooleanField(default=0)
     anc1_examination_general_Lymphadenopathy = models.BooleanField(default=0)
-    anc1_examination_anthropometry_Height = models.BooleanField(default=0)
-    anc1_examination_anthropometry_Weight = models.BooleanField(default=0)
     anc1_investigations_HIV = models.BooleanField(default=0)
     anc1_investigations_Hbsag = models.BooleanField(default=0)
     anc1_investigations_Vdrl = models.BooleanField(default=0)
@@ -282,6 +280,8 @@ class PregnancyData(models.Model):
     anc_7 = models.BooleanField(default=0)
     anc_8 = models.BooleanField(default=0)
     investigations_box = models.BooleanField(default=0)
+    anc1_examination_anthropometry_Height = models.CharField(max_length= 100, default="", blank=True)
+    anc1_examination_anthropometry_Weight = models.CharField(max_length= 100, default="", blank=True)
     investigations_Others = models.CharField(max_length= 100, default="", blank=True)
     investigations_DrugHistory = models.CharField(max_length= 100, default="", blank=True)
     anc1_Date = models.CharField(max_length= 100, default="", blank=True)
@@ -410,7 +410,6 @@ class PregnancyData(models.Model):
     anc8_examination_Weight = models.CharField(max_length= 100, default="", blank=True)
     anc8_examination_Others = models.CharField(max_length= 100, default="", blank=True)
     anc8_advice_Others = models.CharField(max_length= 100, default="", blank=True)
-
 
 
 class Medicine(models.Model):
