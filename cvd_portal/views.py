@@ -494,22 +494,26 @@ class NotificationCRUD(APIView):
     def post(self, request, format=None):
         try:
             data = request.data
-            print(data)
+            print("Notification Data",data)
+            response = {}
+            p_id = data['p_id']
+            p = Patient.objects.get(pk=p_id)
+            msg = data['message']
+            _to = data['to']
+            _from = data['from']
+            response['response'] = send_message(_to, _from, msg)
+            Notifications(text=msg, patient=p).save()
+            if(data['docId']) :
+                d = Doctor.objects.get(pk=data['docId'])
+                print("we have doc id", d.name)
+                Notifications(text="Patient " + p.name +  " was advised on " + msg, doctor=d).save()
+            return JsonResponse(
+                response, safe=False, content_type='application/json')
         except ParseError as error:
             return Response(
                 'Invalid JSON - {0}'.format(error.detail),
                 status=status.HTTP_400_BAD_REQUEST
             )
-        response = {}
-        p_id = data['p_id']
-        p = Patient.objects.get(pk=p_id)
-        msg = data['message']
-        _to = data['to']
-        _from = data['from']
-        response['response'] = send_message(_to, _from, msg)
-        Notifications(text=msg, patient=p).save()
-        return JsonResponse(
-            response, safe=False, content_type='application/json')
 
 
 class gen_otp(APIView):
