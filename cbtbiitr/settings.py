@@ -110,6 +110,7 @@ DBBACKUP_STORAGE_OPTIONS = {
 }
 
 # python manage.py crontab add show remove
+# https://stackoverflow.com/questions/39990917/django-migrate-and-makemigrate-automatic-yes-on-prompt/40231886
 # https://pypi.org/project/django-crontab/
 # https://crontab.guru
 CRONJOBS = [
