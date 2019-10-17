@@ -498,6 +498,14 @@ class PregenancySerializer(DynamicFieldsModelSerializer):
         'anc8_examination_Weight',
         'anc8_examination_Others',
         'anc8_advice_Others',
+        'anc1_advice_Diabetic',
+        'anc2_advice_Diabetic',
+        'anc3_advice_Diabetic',
+        'anc4_advice_Diabetic',
+        'anc5_advice_Diabetic',
+        'anc6_advice_Diabetic',
+        'anc7_advice_Diabetic',
+        'anc8_advice_Diabetic',
         ]
 
     def get_medicines_data(self, obj):

@@ -9,6 +9,14 @@ from cvd_portal.models import *
 class PregnancyData(models.Model):
 
     patient_id = models.OneToOneField(Patient, on_delete=models.CASCADE, primary_key=True)
+    anc1_advice_Diabetic = models.BooleanField(default=0)
+    anc2_advice_Diabetic = models.BooleanField(default=0)
+    anc3_advice_Diabetic = models.BooleanField(default=0)
+    anc4_advice_Diabetic = models.BooleanField(default=0)
+    anc5_advice_Diabetic = models.BooleanField(default=0)
+    anc6_advice_Diabetic = models.BooleanField(default=0)
+    anc7_advice_Diabetic = models.BooleanField(default=0)
+    anc8_advice_Diabetic = models.BooleanField(default=0)
     startDate = CustomDateTimeField(default=datetime.datetime.now)
     anc_1 = models.BooleanField(default=0)
     anc1_diabtese = models.BooleanField(default=0)
