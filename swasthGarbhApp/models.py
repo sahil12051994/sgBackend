@@ -194,7 +194,7 @@ class PregnancyData(models.Model):
     anc5_invest_CBC = models.BooleanField(default=0)
     anc5_invest_LFT = models.BooleanField(default=0)
     anc5_invest_KFT = models.BooleanField(default=0)
-    anc5_invest_CPR = models.BooleanField(default=0)
+    anc5_invest_CPR = models.CharField(max_length= 100, default="", blank=True)
     anc5_advice_DFMC = models.BooleanField(default=0)
     anc5_advice_TFe_Ca = models.BooleanField(default=0)
     anc5_advice_BleedPV = models.BooleanField(default=0)
