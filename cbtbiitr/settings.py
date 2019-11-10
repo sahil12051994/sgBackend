@@ -110,10 +110,12 @@ DBBACKUP_STORAGE_OPTIONS = {
 }
 
 # python manage.py crontab add show remove
+# https://stackoverflow.com/questions/39990917/django-migrate-and-makemigrate-automatic-yes-on-prompt/40231886
 # https://pypi.org/project/django-crontab/
 # https://crontab.guru
 CRONJOBS = [
-    ('0 0 * * *', 'django.core.management.call_command', ['dbbackup'])
+    ('0 0 * * *', 'django.core.management.call_command', ['dbbackup']),
+    ('10 0 * * *', 'cvd_portal.cronJobs.checkNotificationPending', '>> /home/user/gitRepos/swasthGarbh/sgBackend/cron.log'),
 ]
 
 # Password validation

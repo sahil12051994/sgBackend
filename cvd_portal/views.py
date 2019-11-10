@@ -23,6 +23,7 @@ from random import randint
 import logging
 logger = logging.getLogger(__name__)
 
+import datetime
 
 class PatientDataCreate(generics.CreateAPIView):
     authentication_classes = (TokenAuthentication,)
@@ -345,16 +346,43 @@ class PatientOnboarding(APIView):
                     history_of_diseases= data['history_of_diseases']
                     )
 
+            # print("dateeee",data['lmp'])
+
+            datetime_object = datetime.datetime.strptime(data['lmp'], '%Y-%m-%dT%H:%M:%SZ')
+
+            # print(type(datetime_object))
+            # print(datetime_object)
+            # print('anc1_dueDate', datetime_object + datetime.timedelta(days=84))
+            # print('anc2_dueDate', datetime_object + datetime.timedelta(days=140))
+            # print('anc3_dueDate', datetime_object + datetime.timedelta(days=182))
+            # print('anc4_dueDate', datetime_object + datetime.timedelta(days=210))
+            # print('anc5_dueDate', datetime_object + datetime.timedelta(days=238))
+            # print('anc6_dueDate', datetime_object + datetime.timedelta(days=252))
+            # print('anc7_dueDate', datetime_object + datetime.timedelta(days=266))
+            # print('anc8_dueDate', datetime_object + datetime.timedelta(days=282))
+
             p.save()
             response['ID'] = p.id
-            #response['newPatientData'] = p
-            print(p)
+
             t = Token(user=u)
             t.save()
-            pregData = PregnancyData(patient_id=p)
+
+            pregData = PregnancyData(
+            patient_id = p,
+            anc1_dueDate = datetime_object + datetime.timedelta(days=84),
+            anc2_dueDate = datetime_object + datetime.timedelta(days=140),
+            anc3_dueDate = datetime_object + datetime.timedelta(days=182),
+            anc4_dueDate = datetime_object + datetime.timedelta(days=210),
+            anc5_dueDate = datetime_object + datetime.timedelta(days=238),
+            anc6_dueDate = datetime_object + datetime.timedelta(days=252),
+            anc7_dueDate = datetime_object + datetime.timedelta(days=266),
+            anc8_dueDate = datetime_object + datetime.timedelta(days=282)
+            )
             pregData.save()
-            patientDataByDoctor = PatientDataByDoctor(patient_id=p)
-            patientDataByDoctor.save()
+
+            # patientDataByDoctor = PatientDataByDoctor(patient_id=p)
+            # patientDataByDoctor.save()
+
             response['Token'] = t.key
 
             return JsonResponse(
@@ -466,22 +494,26 @@ class NotificationCRUD(APIView):
     def post(self, request, format=None):
         try:
             data = request.data
-            print(data)
+            print("Notification Data",data)
+            response = {}
+            p_id = data['p_id']
+            p = Patient.objects.get(pk=p_id)
+            msg = data['message']
+            _to = data['to']
+            _from = data['from']
+            response['response'] = send_message(_to, _from, msg)
+            Notifications(text=msg, patient=p).save()
+            if(data['docId']) :
+                d = Doctor.objects.get(pk=data['docId'])
+                print("we have doc id", d.name)
+                Notifications(text="Patient " + p.name +  " was advised on " + msg, doctor=d).save()
+            return JsonResponse(
+                response, safe=False, content_type='application/json')
         except ParseError as error:
             return Response(
                 'Invalid JSON - {0}'.format(error.detail),
                 status=status.HTTP_400_BAD_REQUEST
             )
-        response = {}
-        p_id = data['p_id']
-        p = Patient.objects.get(pk=p_id)
-        msg = data['message']
-        _to = data['to']
-        _from = data['from']
-        response['response'] = send_message(_to, _from, msg)
-        Notifications(text=msg, patient=p).save()
-        return JsonResponse(
-            response, safe=False, content_type='application/json')
 
 
 class gen_otp(APIView):
