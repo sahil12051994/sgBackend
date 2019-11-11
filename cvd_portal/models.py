@@ -42,6 +42,8 @@ class Patient(models.Model):
     date_of_birth = models.IntegerField(default=0)
     gender = models.IntegerField(default=1)
     UHID = models.CharField(max_length=60, null=True)
+    spinnerEducation = models.CharField(max_length= 100, default="", blank=True)
+    spinnerStatus = models.CharField(max_length= 100, default="", blank=True)
     email = models.EmailField(blank=True)
     address = models.TextField(null=True)
     doctor = models.ForeignKey(Doctor, related_name="patients", blank=True, null=True, on_delete=models.CASCADE)

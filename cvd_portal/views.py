@@ -325,7 +325,9 @@ class PatientOnboarding(APIView):
                         mother_or_sister_had_preeclampsia= data['mother_or_sister_had_preeclampsia'],
                         history_of_obesity= data['history_of_obesity'],
                         more_than_one_baby= data['more_than_one_baby'],
-                        history_of_diseases= data['history_of_diseases']
+                        history_of_diseases= data['history_of_diseases'],
+                        spinnerEducation=data['spinnerEducation'],
+                        spinnerStatus=data['spinnerStatus']
                         )
             else:
                 print("Patient If")
@@ -343,7 +345,9 @@ class PatientOnboarding(APIView):
                     mother_or_sister_had_preeclampsia= data['mother_or_sister_had_preeclampsia'],
                     history_of_obesity= data['history_of_obesity'],
                     more_than_one_baby= data['more_than_one_baby'],
-                    history_of_diseases= data['history_of_diseases']
+                    history_of_diseases= data['history_of_diseases'],
+                    spinnerEducation=data['spinnerEducation'],
+                    spinnerStatus=data['spinnerStatus']
                     )
 
             # print("dateeee",data['lmp'])

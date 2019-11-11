@@ -136,7 +136,9 @@ class PatientSerializer(DynamicFieldsModelSerializer):
             'history_of_obesity',
             'more_than_one_baby',
             'history_of_diseases',
-            'verified'
+            'verified',
+            'spinnerEducation',
+            'spinnerStatus'
 
         ]
 
