@@ -306,7 +306,9 @@ class PatientOnboarding(APIView):
                         history_of_obesity= data['history_of_obesity'],
                         more_than_one_baby= data['more_than_one_baby'],
                         history_of_diseases= data['history_of_diseases'],
-                        UHID= data['UHID']
+                        UHID= data['UHID'],
+                        spinnerEducation=data['spinnerEducation'],
+                        spinnerStatus=data['spinnerStatus']
                         )
                 else:
                     print("Without UHID Doc If")
