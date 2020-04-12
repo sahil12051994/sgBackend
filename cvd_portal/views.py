@@ -16,6 +16,7 @@ from rest_framework import status
 
 from cvd_portal.inform import check
 from cvd_portal.fcm import send_message
+from cvd_portal.trimesterNotify import trimesterNotifyFunc
 from swasthGarbhApp.logic import check_who_following, get_doctor_patients
 from swasthGarbhApp.models import PregnancyData
 
@@ -34,13 +35,11 @@ class PatientDataCreate(generics.CreateAPIView):
         check(request)
         return super().post(request)
 
-
 class PatientDataDetail(generics.RetrieveUpdateDestroyAPIView):
     authentication_classes = (TokenAuthentication,)
     permission_classes = (IsAuthenticated,)
     queryset = PatientData.objects.all()
     serializer_class = PatientDataSerializer
-
 
 class PatientImageDetail(generics.RetrieveUpdateDestroyAPIView):
     authentication_classes = (TokenAuthentication,)
@@ -79,12 +78,10 @@ class ParticularImageByte(generics.RetrieveUpdateDestroyAPIView):
             {"success":True},
             safe=False,content_type='application/json')
 
-
 class PatientImageCreate(generics.CreateAPIView):
     authentication_classes = (TokenAuthentication,)
     permission_classes = (IsAuthenticated,)
     serializer_class = PatientImageSerializer
-
 
 class PatientDetail(generics.RetrieveUpdateDestroyAPIView):
     authentication_classes = (TokenAuthentication,)
@@ -160,12 +157,27 @@ class ResultsByDoc(generics.RetrieveUpdateDestroyAPIView):
                 dataToSend,
                 safe=False, content_type='application/json')
 
-class PatientList(generics.ListCreateAPIView):
+class trimesterNotify(generics.RetrieveUpdateDestroyAPIView):
     authentication_classes = (TokenAuthentication,)
     permission_classes = (IsAuthenticated,)
     queryset = Patient.objects.all()
     serializer_class = PatientSerializer
 
+    def post(self, request, format=None):
+        try:
+            data = request.data
+            trimesterNotifyFunc(data)
+        except ParseError as error:
+            return Response(
+                'Invalid JSON - {0}'.format(error.detail),
+                status=status.HTTP_400_BAD_REQUEST
+            )
+
+class PatientList(generics.ListCreateAPIView):
+    authentication_classes = (TokenAuthentication,)
+    permission_classes = (IsAuthenticated,)
+    queryset = Patient.objects.all()
+    serializer_class = PatientSerializer
 
 class DoctorDetail(generics.RetrieveUpdateDestroyAPIView):
     authentication_classes = (TokenAuthentication,)
@@ -181,7 +193,6 @@ class DoctorDetail(generics.RetrieveUpdateDestroyAPIView):
         return JsonResponse(
             dataToSend,
             safe=False, content_type='application/json')
-
 
 class DoctorList(generics.ListAPIView):
     # authentication_classes = (TokenAuthentication,)

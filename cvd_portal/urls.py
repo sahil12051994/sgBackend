@@ -23,6 +23,7 @@ urlpatterns = [
     url(r'api/onboard/patient$', PatientOnboarding.as_view()),
     url(r'api/device$', DeviceCRUD.as_view()),
     url(r'api/resultsByDoc/(?P<pk>[0-9]+)$', ResultsByDoc.as_view()),
+    url(r'api/trimesterNotify$', trimesterNotify.as_view()),
 
     # NOTIFICATION API
     url(r'api/notification$', NotificationCRUD.as_view()),
