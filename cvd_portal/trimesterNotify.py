@@ -26,7 +26,9 @@ def trimesterNotifyFunc(data) :
                 notifMessage = data['trimesterThreeText']
                 send_message = 1
 
-            print("Patient Name: ", patient, "LMP Date: ", patient.lmp, "Days Past from LMP: ", lmpDate, "Message: ", notifMessage)
+            # doctor = Doctor.objects.get(patient.doctor)
+            if(patient.doctor and data['doctorId'] == patient.doctor.pk):
+                print("Patient Name: ", patient, "Doctor Id: ", patient.doctor.pk,  "LMP Date: ", patient.lmp, "Days Past from LMP: ", lmpDate, "Message: ", notifMessage)
 
             # if(send_message == 1) :
             #     _to = patient.patient_id.device.device_id
