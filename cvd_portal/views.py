@@ -165,8 +165,11 @@ class trimesterNotify(generics.RetrieveUpdateDestroyAPIView):
 
     def post(self, request, format=None):
         try:
+            print("Post Request , trimesterNotify", request.data)
             data = request.data
-            trimesterNotifyFunc(data)
+            response = trimesterNotifyFunc(data)
+            return JsonResponse(
+                response, safe=False, content_type='application/json')
         except ParseError as error:
             return Response(
                 'Invalid JSON - {0}'.format(error.detail),

@@ -8,7 +8,7 @@ from cvd_portal.models import *
 url = 'https://fcm.googleapis.com/fcm/send'
 
 def trimesterNotifyFunc(data) :
-
+    print("Inside Function: ", data)
     for patient in Patient.objects.all() :
         try :
 
@@ -44,3 +44,6 @@ def trimesterNotifyFunc(data) :
                     r = requests.post(url, data=body, headers=headers)
 
         except Exception as e: print(e)
+
+    result = {"status": "ok"}
+    return result
