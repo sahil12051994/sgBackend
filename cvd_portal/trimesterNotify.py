@@ -33,6 +33,8 @@ def trimesterNotifyFunc(data) :
                 print("Patient Name: ", patient, "Doctor Id: ", patient.doctor.pk, "Phone Id: ", patient.device.device_id ,"LMP Date: ", patient.lmp, "Days Past from LMP: ", lmpDate, "Message: ", notifMessage)
 
                 if(send_message == 1) :
+                    Notifications(text=notifMessage, patient=patient).save()
+                    Notifications(text="Patient " + patient.name +  " was advised for Trimester : " + notifMessage, doctor=patient.doctor).save()
                     _to = patient.device.device_id
                     message = notifMessage
                     body = {'to': _to, 'data': {"message": message}}
